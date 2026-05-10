@@ -185,6 +185,12 @@ export const SEED = {
       description: "Solo academic course project quantifying portfolio diversification benefits using monthly closing returns of selected companies — covariance, correlation, and efficient-frontier analysis with full Excel modeling.",
       team: ["Kelvin Nlebemchukwu"],
       tags: ["Portfolio Theory", "Diversification", "Excel"],
+      links: [
+        {
+          label: "Download Excel Model",
+          url: "/articles/diversification-case.xlsx"
+        }
+      ],
       pdfFile: { asset: { url: "/articles/diversification-case.pdf" } }
     },
     {
