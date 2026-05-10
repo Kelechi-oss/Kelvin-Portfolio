@@ -1,0 +1,15 @@
+/**
+ * Mount Sanity Studio at /studio.
+ * After running `npm run dev`, visit http://localhost:3000/studio.
+ */
+"use client";
+
+import { NextStudio } from "next-sanity/studio";
+import config from "@/sanity.config";
+
+export const dynamic = "force-static";
+export { metadata, viewport } from "next-sanity/studio";
+
+export default function StudioPage() {
+  return <NextStudio config={config} />;
+}
